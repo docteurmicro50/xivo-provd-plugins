@@ -27,16 +27,17 @@ MODEL_VERSIONS = {
     u'T20P': u'9.72.0.80',
     u'T21P': u'34.72.0.75',
     u'T22P': u'7.72.0.80',
-    u'T26P': u'6.72.0.80',
-    u'T28P': u'2.72.0.80',
+    u'T26P': u'6.73.0.50',
+    u'T28P': u'2.73.0.50',
     u'T41P': u'36.72.0.55',
     u'T42G': u'29.72.0.55',
     u'T46G': u'28.72.0.45',
     u'T48G': u'35.72.0.30',
+    u'CP860': u'37.72.0.5',
 }
 COMMON_FILES = [
-    ('y000000000000.cfg', u'2.72.0.80.rom', 'model-M7+M1.tpl'),
-    ('y000000000004.cfg', u'6.72.0.80.rom', 'model-M7+M1.tpl'),
+    ('y000000000000.cfg', u'2.73.0.50.rom', 'model-M7+M1.tpl'),
+    ('y000000000004.cfg', u'6.73.0.50.rom', 'model-M7+M1.tpl'),
     ('y000000000005.cfg', u'7.72.0.80.rom', 'model-M7+M1.tpl'),
     ('y000000000007.cfg', u'9.72.0.80.rom', 'model-M7+M1.tpl'),
     ('y000000000028.cfg', u'28.72.0.45.rom', 'model.tpl'),
@@ -45,6 +46,7 @@ COMMON_FILES = [
     ('y000000000031.cfg', u'31.72.0.75.rom', 'model.tpl'),
     ('y000000000034.cfg', u'34.72.0.75.rom', 'model.tpl'),
     ('y000000000035.cfg', u'35.72.0.30.rom', 'model.tpl'),
+    ('y000000000037.cfg', u'37.72.0.5.rom', 'model.tpl'),
 ]
 
 class YealinkPlugin(common_globals['BaseYealinkPlugin']):
@@ -133,6 +135,7 @@ class _FunckeyPrefixIterator(object):
         u'T42G': 15,
         u'T46G': 27,
         u'T48G': 27,
+        u'CP860': 1,
     }
     _NB_MEMORYKEY = {
         u'T19P': 0,
@@ -145,6 +148,7 @@ class _FunckeyPrefixIterator(object):
         u'T42G': 0,
         u'T46G': 0,
         u'T48G': 0,
+        u'CP860': 0,
     }
     _NB_EXPMODKEY = 40
 
