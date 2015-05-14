@@ -31,13 +31,13 @@
             "tel.funckeys" : 0,
             "xivo.tested" : 1
         },
-        "Yealink, T26P, 6.72.0.80": {
+        "Yealink, T26P, 6.73.0.50": {
             "sip.lines": 3,
             "xivo.ha" : 0,
             "tel.funckeys" : 0,
             "xivo.tested" : 1
         },
-        "Yealink, T28P, 2.72.0.80": {
+        "Yealink, T28P, 2.73.0.50": {
             "sip.lines": 6,
             "xivo.ha" : 0,
             "tel.funckeys" : 0,
@@ -66,6 +66,12 @@
             "sip.lines": 6,
             "xivo.ha" : 0,
             "tel.funckeys" : 8,
+            "xivo.tested" : 0
+        },
+        "Yealink, CP860, 37.72.0.6": {
+            "sip.lines": 1,
+            "xivo.ha" : 0,
+            "tel.funckeys" : 0,
             "xivo.tested" : 0
         }
     }
